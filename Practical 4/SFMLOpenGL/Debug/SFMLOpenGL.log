@@ -1,7 +1,28 @@
-﻿Build started 24/11/2016 15:37:04.
-     1>Project "D:\Gameplay Programming\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\SFMLOpenGL\SFMLOpenGL.vcxproj" on node 2 (Build target(s)).
+﻿Build started 24/11/2016 16:52:23.
+     1>Project "C:\Users\JOHN\Documents\Year 2 College Work\Gameplay Programming\Gameplay-Programming\Practical 4\SFMLOpenGL\SFMLOpenGL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Main.cpp
+         Main.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(110): warning C4005: 'GL_POINTS' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(27) : see previous definition of 'GL_POINTS'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(111): warning C4005: 'GL_LINES' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(28) : see previous definition of 'GL_LINES'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(112): warning C4005: 'GL_LINE_LOOP' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(30) : see previous definition of 'GL_LINE_LOOP'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(113): warning C4005: 'GL_LINE_STRIP' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(29) : see previous definition of 'GL_LINE_STRIP'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(114): warning C4005: 'GL_TRIANGLES' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(31) : see previous definition of 'GL_TRIANGLES'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(115): warning C4005: 'GL_TRIANGLE_STRIP' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(32) : see previous definition of 'GL_TRIANGLE_STRIP'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(116): warning C4005: 'GL_TRIANGLE_FAN' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(33) : see previous definition of 'GL_TRIANGLE_FAN'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(117): warning C4005: 'GL_QUADS' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(34) : see previous definition of 'GL_QUADS'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(118): warning C4005: 'GL_QUAD_STRIP' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(35) : see previous definition of 'GL_QUAD_STRIP'
+     1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(119): warning C4005: 'GL_POLYGON' : macro redefinition
+                 c:\sfml-2.3.2\include\sfml\window\window.hpp(36) : see previous definition of 'GL_POLYGON'
          Game.cpp
      1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(110): warning C4005: 'GL_POINTS' : macro redefinition
                  c:\sfml-2.3.2\include\sfml\window\window.hpp(27) : see previous definition of 'GL_POINTS'
@@ -23,13 +44,15 @@
                  c:\sfml-2.3.2\include\sfml\window\window.hpp(35) : see previous definition of 'GL_QUAD_STRIP'
      1>c:\program files (x86)\windows kits\8.1\include\um\gl\gl.h(119): warning C4005: 'GL_POLYGON' : macro redefinition
                  c:\sfml-2.3.2\include\sfml\window\window.hpp(36) : see previous definition of 'GL_POLYGON'
-     1>d:\gameplay programming\practical_04_sfmlopengltransformations\sfmlopengltransformations\sfmlopengl\game.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\john\documents\year 2 college work\gameplay programming\gameplay-programming\practical 4\sfmlopengl\game.cpp(63): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         Generating Code...
+     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Gameplay Programming\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\Debug\SFMLOpenGL.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-network-d.lib" OpenGL32.lib GLU32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Gameplay Programming\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\Debug\SFMLOpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Gameplay Programming\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\Debug\SFMLOpenGL.lib" /MACHINE:X86 Debug\Game.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JOHN\Documents\Year 2 College Work\Gameplay Programming\Gameplay-Programming\Practical 4\Debug\SFMLOpenGL.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-network-d.lib" OpenGL32.lib GLU32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JOHN\Documents\Year 2 College Work\Gameplay Programming\Gameplay-Programming\Practical 4\Debug\SFMLOpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JOHN\Documents\Year 2 College Work\Gameplay Programming\Gameplay-Programming\Practical 4\Debug\SFMLOpenGL.lib" /MACHINE:X86 Debug\Game.obj
          Debug\Main.obj
-         SFMLOpenGL.vcxproj -> D:\Gameplay Programming\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\Debug\SFMLOpenGL.exe
-     1>Done Building Project "D:\Gameplay Programming\PRACTICAL_04_SFMLOpenGLTransformations\SFMLOpenGLTransformations\SFMLOpenGL\SFMLOpenGL.vcxproj" (Build target(s)).
+         SFMLOpenGL.vcxproj -> C:\Users\JOHN\Documents\Year 2 College Work\Gameplay Programming\Gameplay-Programming\Practical 4\Debug\SFMLOpenGL.exe
+     1>Done Building Project "C:\Users\JOHN\Documents\Year 2 College Work\Gameplay Programming\Gameplay-Programming\Practical 4\SFMLOpenGL\SFMLOpenGL.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:17.41
+Time Elapsed 00:00:05.02
